@@ -1,0 +1,15 @@
+{
+  "id": "c38353ad-1fe1-4647-95f3-3eb7c1736683",
+  "uid": "labore-eveniet-totam",
+  "type": "article",
+  "data": {
+    "subtitle": "Page subtitle",
+    "heading": "Page heading",
+    "title": "Page title",
+    "description": "Document description",
+    "navigation": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    }
+  }
+}

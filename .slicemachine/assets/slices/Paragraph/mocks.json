@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "paragraph",
+    "items": [],
+    "primary": {
+      "paragraph": [
+        {
+          "type": "paragraph",
+          "text": "Est ex esse qui magna aute in ad sunt consequat cupidatat duis duis.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

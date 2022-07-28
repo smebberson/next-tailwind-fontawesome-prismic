@@ -1,0 +1,86 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "heroTag": {
+        "type": "Text",
+        "config": {
+          "label": "Hero tag",
+          "placeholder": "Enter a tag for the hero area"
+        }
+      },
+      "heroTitle": {
+        "type": "Text",
+        "config": {
+          "label": "Hero title",
+          "placeholder": ""
+        }
+      },
+      "heroDescription": {
+        "type": "Text",
+        "config": {
+          "label": "Hero description",
+          "placeholder": "Enter a hero description"
+        }
+      },
+      "heroHighlights": {
+        "type": "Group",
+        "config": {
+          "label": "Hero Highlights",
+          "fields": {
+            "highlightTitle": {
+              "type": "Text",
+              "config": {
+                "label": "Highlight title",
+                "placeholder": "A title for the highlight"
+              }
+            },
+            "highlightDescription": {
+              "type": "Text",
+              "config": {
+                "label": "Highlight description",
+                "placeholder": "Provide a highlight description"
+              }
+            }
+          }
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "Meta": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Document title",
+          "placeholder": "Enter the document title"
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Document description",
+          "placeholder": "A description for the document"
+        }
+      }
+    },
+    "Layout": {
+      "navigation": {
+        "type": "Link",
+        "config": {
+          "label": "Navigation",
+          "select": "document",
+          "customtypes": ["navigation"]
+        }
+      }
+    }
+  }
+}

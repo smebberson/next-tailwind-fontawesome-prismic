@@ -1,0 +1,105 @@
+{
+  "_cts": {
+    "navigation": {},
+    "homepage": {
+      "title": {
+        "content": "Starter template"
+      },
+      "description": {
+        "content": "A starting point for building websites with Next.js, Tailwind CSS and Font Awesome."
+      },
+      "heroTag": {
+        "content": "Start strong"
+      },
+      "heroTitle": {
+        "content": "Start with a strong foundation"
+      },
+      "heroDescription": {
+        "content": "Use this as a starting point for building websites with Next.js, Tailwind CSS, Font Awesome and Prismic. Build whatever you like."
+      },
+      "heroHighlights": {
+        "highlightTitle": {
+          "content": "Development made-easy"
+        },
+        "highlightDescription": {
+          "content": "Comes pre-installed with Font Awesome, Next.js, Taildwind CSS and Prismic."
+        }
+      }
+    },
+    "article": {
+      "title": {
+        "content": "Page title"
+      },
+      "description": {
+        "content": "Document description"
+      },
+      "subtitle": {
+        "content": "Page subtitle"
+      },
+      "heading": {
+        "content": "Page heading"
+      }
+    }
+  },
+  "slices": {
+    "Menu": {
+      "default": {
+        "primary": {
+          "menuName": {
+            "content": "Our products"
+          }
+        },
+        "items": {
+          "menuItemName": {
+            "content": "Our first product"
+          },
+          "menuItemDescription": {
+            "content": "The description for the first product."
+          }
+        }
+      }
+    },
+    "Link": {
+      "default": {
+        "primary": {
+          "name": {
+            "content": "Navigation link"
+          }
+        }
+      }
+    },
+    "Button": {
+      "default": {
+        "primary": {
+          "name": {
+            "content": "Search"
+          }
+        }
+      }
+    },
+    "Paragraph": {
+      "default": {
+        "primary": {
+          "paragraph": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Title": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
