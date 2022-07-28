@@ -1,7 +1,7 @@
 import React from 'react';
 import link from '../../lib/link';
 
-const Link = ({ slice: { primary } }) => (
+const NavigationLink = ({ slice: { primary } }) => (
     <a
         key={primary.name}
         href={link({ data: primary.link })}
@@ -11,4 +11,4 @@ const Link = ({ slice: { primary } }) => (
     </a>
 );
 
-export default Link;
+export default NavigationLink;

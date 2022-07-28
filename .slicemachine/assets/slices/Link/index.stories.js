@@ -1,7 +1,7 @@
-import MyComponent from '../../../../slices/Link';
+import MyComponent from '../../../../slices/NavigationLink';
 
 export default {
-  title: 'slices/Link',
+  title: 'slices/NavigationLink',
 };
 
 export const _Default = () => (

@@ -8,7 +8,7 @@ import { useState } from 'react';
 import classNames from '../../lib/class-names';
 import link from '../../lib/link';
 
-const Menu = ({ slice }) => {
+const NavigationMenu = ({ slice }) => {
     const [referenceElement, setReferenceElement] = useState(null);
     const [popperElement, setPopperElement] = useState(null);
     const { styles, attributes } = usePopper(referenceElement, popperElement, {
@@ -106,4 +106,4 @@ const Menu = ({ slice }) => {
     );
 };
 
-export default Menu;
+export default NavigationMenu;

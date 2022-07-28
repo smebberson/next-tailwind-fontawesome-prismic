@@ -1,7 +1,7 @@
-import MyComponent from '../../../../slices/Menu';
+import MyComponent from '../../../../slices/NavigationMenu';
 
 export default {
-  title: 'slices/Menu',
+  title: 'slices/NavigationMenu',
 };
 
 export const _Default = () => (
@@ -9,7 +9,7 @@ export const _Default = () => (
     slice={{
       variation: 'default',
       name: 'Default',
-      slice_type: 'menu',
+      slice_type: 'navigation_menu',
       items: [
         {
           menuItemName: 'unleash impactful mindshare',
@@ -56,7 +56,7 @@ export const _WithHighlight = () => (
     slice={{
       variation: 'withHighlight',
       name: 'With highlight',
-      slice_type: 'menu',
+      slice_type: 'navigation_menu',
       items: [
         {
           menuItemName: 'disintermediate 24/365 eyeballs',

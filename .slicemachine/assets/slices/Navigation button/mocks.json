@@ -2,13 +2,13 @@
   {
     "variation": "default",
     "name": "Default",
-    "slice_type": "navigation_link",
+    "slice_type": "navigation_button",
     "items": [],
     "primary": {
-      "name": "Navigation link",
+      "name": "strategize sexy niches",
       "link": {
         "link_type": "Web",
-        "url": "https://prismic.io"
+        "url": "https://slicemachine.dev"
       }
     }
   }

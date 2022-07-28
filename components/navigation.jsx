@@ -4,9 +4,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
 import { faCube } from '@fortawesome/free-solid-svg-icons/faCube';
 import { faXmark } from '@fortawesome/free-solid-svg-icons/faXmark';
 
-import NavButton from '../slices/Button';
-import NavLink from '../slices/Link';
-import NavMenu from '../slices/Menu';
+import NavButton from '../slices/NavigationButton';
+import NavLink from '../slices/NavigationLink';
+import NavMenu from '../slices/NavigationMenu';
 
 const Navigation = ({ data }) => {
     return (
@@ -47,7 +47,8 @@ const Navigation = ({ data }) => {
                                 <div className="hidden sm:block sm:ml-6">
                                     <div className="flex space-x-4">
                                         {data.slices.map((item, itemIdx) =>
-                                            item.slice_type === 'menu' ? (
+                                            item.slice_type ===
+                                            'navigation_menu' ? (
                                                 <NavMenu
                                                     slice={item}
                                                     key={itemIdx}

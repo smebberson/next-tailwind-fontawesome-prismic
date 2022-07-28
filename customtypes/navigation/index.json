@@ -10,10 +10,10 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "menu": {
+            "navigation_menu": {
               "type": "SharedSlice"
             },
-            "link": {
+            "navigation_link": {
               "type": "SharedSlice"
             }
           }
@@ -26,7 +26,7 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "button": {
+            "navigation_button": {
               "type": "SharedSlice"
             }
           }

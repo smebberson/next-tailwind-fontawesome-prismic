@@ -1,7 +1,7 @@
 import React from 'react';
 import link from '../../lib/link';
 
-const Button = ({ slice: { primary } }) => (
+const NavigationButton = ({ slice: { primary } }) => (
     <a
         href={link({ data: primary.link })}
         className={
@@ -12,4 +12,4 @@ const Button = ({ slice: { primary } }) => (
     </a>
 );
 
-export default Button;
+export default NavigationButton;

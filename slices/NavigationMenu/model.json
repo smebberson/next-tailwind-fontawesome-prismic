@@ -1,15 +1,15 @@
 {
-  "id": "menu",
+  "id": "navigation_menu",
   "type": "SharedSlice",
-  "name": "Menu",
-  "description": "Menu",
+  "name": "NavigationMenu",
+  "description": "A navigation menu",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Menu",
+      "description": "A menu with items",
       "primary": {
         "menuName": {
           "type": "Text",
@@ -50,7 +50,7 @@
       "name": "With highlight",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Menu",
+      "description": "A menu with items and a feature item",
       "primary": {
         "menuName": {
           "type": "Text",

@@ -1,28 +1,28 @@
 {
-  "id": "button",
+  "id": "navigation_link",
   "type": "SharedSlice",
-  "name": "Button",
-  "description": "Button",
+  "name": "NavigationLink",
+  "description": "A navigation link",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Button",
+      "description": "Link",
       "primary": {
         "name": {
           "type": "Text",
           "config": {
             "label": "Name",
-            "placeholder": "A name for the button"
+            "placeholder": "Enter the name for the link"
           }
         },
         "link": {
           "type": "Link",
           "config": {
             "label": "Link",
-            "placeholder": "What the button will link to",
+            "placeholder": "What the navigation item will link to",
             "select": null
           }
         }

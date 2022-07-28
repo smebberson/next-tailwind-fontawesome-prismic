@@ -2,7 +2,7 @@
   {
     "variation": "default",
     "name": "Default",
-    "slice_type": "menu",
+    "slice_type": "navigation_menu",
     "items": [
       {
         "menuItemName": "unleash impactful mindshare",
@@ -44,7 +44,7 @@
   {
     "variation": "withHighlight",
     "name": "With highlight",
-    "slice_type": "menu",
+    "slice_type": "navigation_menu",
     "items": [
       {
         "menuItemName": "disintermediate 24/365 eyeballs",

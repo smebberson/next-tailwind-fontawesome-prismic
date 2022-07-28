@@ -42,7 +42,7 @@
     }
   },
   "slices": {
-    "Menu": {
+    "NavigationMenu": {
       "default": {
         "primary": {
           "menuName": {
@@ -59,7 +59,7 @@
         }
       }
     },
-    "Link": {
+    "NavigationLink": {
       "default": {
         "primary": {
           "name": {
@@ -68,7 +68,7 @@
         }
       }
     },
-    "Button": {
+    "NavigationButton": {
       "default": {
         "primary": {
           "name": {

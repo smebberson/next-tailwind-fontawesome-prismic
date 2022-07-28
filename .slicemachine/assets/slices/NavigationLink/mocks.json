@@ -2,13 +2,13 @@
   {
     "variation": "default",
     "name": "Default",
-    "slice_type": "button",
+    "slice_type": "navigation_link",
     "items": [],
     "primary": {
-      "name": "Search",
+      "name": "Navigation link",
       "link": {
         "link_type": "Web",
-        "url": "https://slicemachine.dev"
+        "url": "http://google.com"
       }
     }
   }

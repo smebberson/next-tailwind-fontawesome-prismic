@@ -1,16 +1,16 @@
 {
   "slices": {
     "components": {
-      "button": {
+      "navigation_button": {
         "library": "slices",
-        "id": "button",
-        "name": "Button",
-        "description": "Button",
+        "id": "navigation_button",
+        "name": "NavigationButton",
+        "description": "A navigation button",
         "model": {
-          "id": "button",
+          "id": "navigation_button",
           "type": "SharedSlice",
-          "name": "Button",
-          "description": "Button",
+          "name": "NavigationButton",
+          "description": "A navigation button",
           "variations": [
             {
               "id": "default",
@@ -44,7 +44,7 @@
           "default": {
             "variation": "default",
             "name": "Default",
-            "slice_type": "button",
+            "slice_type": "navigation_button",
             "items": [],
             "primary": {
               "name": "Search",
@@ -61,22 +61,22 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Button/default/preview.png",
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/NavigationButton/default/preview.png",
             "width": 800,
             "height": 24
           }
         }
       },
-      "link": {
+      "navigation_link": {
         "library": "slices",
-        "id": "link",
-        "name": "Link",
-        "description": "Link",
+        "id": "navigation_link",
+        "name": "NavigationLink",
+        "description": "A navigation link",
         "model": {
-          "id": "link",
+          "id": "navigation_link",
           "type": "SharedSlice",
-          "name": "Link",
-          "description": "Link",
+          "name": "NavigationLink",
+          "description": "A navigation link",
           "variations": [
             {
               "id": "default",
@@ -110,13 +110,13 @@
           "default": {
             "variation": "default",
             "name": "Default",
-            "slice_type": "link",
+            "slice_type": "navigation_link",
             "items": [],
             "primary": {
               "name": "Navigation link",
               "link": {
                 "link_type": "Web",
-                "url": "https://prismic.io"
+                "url": "http://google.com"
               }
             }
           }
@@ -127,29 +127,29 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Link/default/preview.png",
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/NavigationLink/default/preview.png",
             "width": 800,
             "height": 24
           }
         }
       },
-      "menu": {
+      "navigation_menu": {
         "library": "slices",
-        "id": "menu",
-        "name": "Menu",
-        "description": "Menu",
+        "id": "navigation_menu",
+        "name": "NavigationMenu",
+        "description": "A navigation menu",
         "model": {
-          "id": "menu",
+          "id": "navigation_menu",
           "type": "SharedSlice",
-          "name": "Menu",
-          "description": "Menu",
+          "name": "NavigationMenu",
+          "description": "A navigation menu",
           "variations": [
             {
               "id": "default",
               "name": "Default",
               "docURL": "...",
               "version": "sktwi1xtmkfgx8626",
-              "description": "Menu",
+              "description": "A menu with items",
               "primary": {
                 "menuName": {
                   "type": "Text",
@@ -190,7 +190,7 @@
               "name": "With highlight",
               "docURL": "...",
               "version": "sktwi1xtmkfgx8626",
-              "description": "Menu",
+              "description": "A menu with items and a feature item",
               "primary": {
                 "menuName": {
                   "type": "Text",
@@ -254,7 +254,7 @@
           "default": {
             "variation": "default",
             "name": "Default",
-            "slice_type": "menu",
+            "slice_type": "navigation_menu",
             "items": [
               {
                 "menuItemName": "unleash impactful mindshare",
@@ -296,7 +296,7 @@
           "withHighlight": {
             "variation": "withHighlight",
             "name": "With highlight",
-            "slice_type": "menu",
+            "slice_type": "navigation_menu",
             "items": [
               {
                 "menuItemName": "disintermediate 24/365 eyeballs",
@@ -340,12 +340,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Menu/default/preview.png",
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/NavigationMenu/default/preview.png",
             "width": 800,
             "height": 36
           },
           "withHighlight": {
-            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Menu/withHighlight/preview.png",
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/NavigationMenu/withHighlight/preview.png",
             "width": 800,
             "height": 36
           }
@@ -405,7 +405,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Paragraph/default/preview.png",
+            "width": 800,
+            "height": 24
+          }
+        }
       },
       "title": {
         "library": "slices",

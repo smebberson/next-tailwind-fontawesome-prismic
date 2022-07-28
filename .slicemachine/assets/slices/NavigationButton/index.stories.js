@@ -1,7 +1,7 @@
-import MyComponent from '../../../../slices/Button';
+import MyComponent from '../../../../slices/NavigationButton';
 
 export default {
-  title: 'slices/Button',
+  title: 'slices/NavigationButton',
 };
 
 export const _Default = () => (
@@ -9,7 +9,7 @@ export const _Default = () => (
     slice={{
       variation: 'default',
       name: 'Default',
-      slice_type: 'button',
+      slice_type: 'navigation_button',
       items: [],
       primary: {
         name: 'Search',
