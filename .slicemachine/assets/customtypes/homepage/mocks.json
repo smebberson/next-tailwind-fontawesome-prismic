@@ -1,0 +1,34 @@
+{
+  "id": "5706db1e-1b24-414f-97f2-22f5b6fac13a",
+  "uid": "omnis-consequatur-sit",
+  "type": "homepage",
+  "data": {
+    "heroTag": "Start strong",
+    "heroTitle": "Start with a strong foundation",
+    "heroDescription": "Use this as a starting point for building websites with Next.js, Tailwind CSS, Font Awesome and Prismic. Build whatever you like.",
+    "heroHighlights": [
+      {
+        "highlightTitle": "Development made-easy",
+        "highlightDescription": "Comes pre-installed with Font Awesome, Next.js, Taildwind CSS and Prismic."
+      },
+      {
+        "highlightTitle": "Development made-easy",
+        "highlightDescription": "Comes pre-installed with Font Awesome, Next.js, Taildwind CSS and Prismic."
+      },
+      {
+        "highlightTitle": "Development made-easy",
+        "highlightDescription": "Comes pre-installed with Font Awesome, Next.js, Taildwind CSS and Prismic."
+      },
+      {
+        "highlightTitle": "Development made-easy",
+        "highlightDescription": "Comes pre-installed with Font Awesome, Next.js, Taildwind CSS and Prismic."
+      }
+    ],
+    "title": "Starter template",
+    "description": "A starting point for building websites with Next.js, Tailwind CSS and Font Awesome.",
+    "navigation": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    }
+  }
+}

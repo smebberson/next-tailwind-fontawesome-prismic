@@ -1,0 +1,15 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "name": "Search",
+      "link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      }
+    }
+  }
+]

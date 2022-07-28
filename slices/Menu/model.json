@@ -1,0 +1,112 @@
+{
+  "id": "menu",
+  "type": "SharedSlice",
+  "name": "Menu",
+  "description": "Menu",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Menu",
+      "primary": {
+        "menuName": {
+          "type": "Text",
+          "config": {
+            "label": "Menu name",
+            "placeholder": "The name of the navigation menu"
+          }
+        }
+      },
+      "items": {
+        "menuItemName": {
+          "type": "Text",
+          "config": {
+            "label": "Menu item name",
+            "placeholder": "The name for a menu item"
+          }
+        },
+        "menuItemDescription": {
+          "type": "Text",
+          "config": {
+            "label": "Menu item description",
+            "placeholder": "A description for the menu item"
+          }
+        },
+        "menuItemLink": {
+          "type": "Link",
+          "config": {
+            "label": "Menu item link",
+            "placeholder": "Choose a document to link to",
+            "select": null
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "withHighlight",
+      "name": "With highlight",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Menu",
+      "primary": {
+        "menuName": {
+          "type": "Text",
+          "config": {
+            "label": "Menu name",
+            "placeholder": "The name of the navigation menu"
+          }
+        },
+        "highlightName": {
+          "type": "Text",
+          "config": {
+            "label": "Highlight name",
+            "placeholder": "Enter a highlight name"
+          }
+        },
+        "highlightDescription": {
+          "type": "Text",
+          "config": {
+            "label": "Highlight description",
+            "placeholder": "Enter a highlight description"
+          }
+        },
+        "highlightLink": {
+          "type": "Link",
+          "config": {
+            "label": "Highlight link",
+            "placeholder": "Choose a link for the highlight",
+            "select": null
+          }
+        }
+      },
+      "items": {
+        "menuItemName": {
+          "type": "Text",
+          "config": {
+            "label": "Menu item name",
+            "placeholder": "The name for a menu item"
+          }
+        },
+        "menuItemDescription": {
+          "type": "Text",
+          "config": {
+            "label": "Menu item description",
+            "placeholder": "A description for the menu item"
+          }
+        },
+        "menuItemLink": {
+          "type": "Link",
+          "config": {
+            "label": "Menu item link",
+            "placeholder": "Choose a document to link to",
+            "select": null
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

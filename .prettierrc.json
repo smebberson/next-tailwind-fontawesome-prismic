@@ -6,7 +6,12 @@
     "trailingComma": "es5",
     "overrides": [
         {
-            "files": "package.json",
+            "files": [
+                ".slicemachine/**/*",
+                "customtypes/*/index.json",
+                "package.json",
+                "slices/*/model.json"
+            ],
             "options": {
                 "tabWidth": 2
             }

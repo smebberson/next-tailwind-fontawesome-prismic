@@ -10,5 +10,5 @@ indent_style = space
 indent_size = 4
 
 # Because the `npm` cli resets it when you use `--save` or `--save-dev`.
-[package.json]
+[{.slicemachine/**/*,customtypes/*/index.json,package.json,slices/*/model.json}]
 indent_size = 2

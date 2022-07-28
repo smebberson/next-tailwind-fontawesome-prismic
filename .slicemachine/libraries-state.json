@@ -1,0 +1,474 @@
+{
+  "slices": {
+    "components": {
+      "button": {
+        "library": "slices",
+        "id": "button",
+        "name": "Button",
+        "description": "Button",
+        "model": {
+          "id": "button",
+          "type": "SharedSlice",
+          "name": "Button",
+          "description": "Button",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Name",
+                    "placeholder": "A name for the button"
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "What the button will link to",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "name": "Search",
+              "link": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Button/default/preview.png",
+            "width": 800,
+            "height": 24
+          }
+        }
+      },
+      "link": {
+        "library": "slices",
+        "id": "link",
+        "name": "Link",
+        "description": "Link",
+        "model": {
+          "id": "link",
+          "type": "SharedSlice",
+          "name": "Link",
+          "description": "Link",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Link",
+              "primary": {
+                "name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Name",
+                    "placeholder": "Enter the name for the link"
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "What the navigation item will link to",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "link",
+            "items": [],
+            "primary": {
+              "name": "Navigation link",
+              "link": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Link/default/preview.png",
+            "width": 800,
+            "height": 24
+          }
+        }
+      },
+      "menu": {
+        "library": "slices",
+        "id": "menu",
+        "name": "Menu",
+        "description": "Menu",
+        "model": {
+          "id": "menu",
+          "type": "SharedSlice",
+          "name": "Menu",
+          "description": "Menu",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Menu",
+              "primary": {
+                "menuName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Menu name",
+                    "placeholder": "The name of the navigation menu"
+                  }
+                }
+              },
+              "items": {
+                "menuItemName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Menu item name",
+                    "placeholder": "The name for a menu item"
+                  }
+                },
+                "menuItemDescription": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Menu item description",
+                    "placeholder": "A description for the menu item"
+                  }
+                },
+                "menuItemLink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Menu item link",
+                    "placeholder": "Choose a document to link to",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "withHighlight",
+              "name": "With highlight",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Menu",
+              "primary": {
+                "menuName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Menu name",
+                    "placeholder": "The name of the navigation menu"
+                  }
+                },
+                "highlightName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Highlight name",
+                    "placeholder": "Enter a highlight name"
+                  }
+                },
+                "highlightDescription": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Highlight description",
+                    "placeholder": "Enter a highlight description"
+                  }
+                },
+                "highlightLink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Highlight link",
+                    "placeholder": "Choose a link for the highlight",
+                    "select": null
+                  }
+                }
+              },
+              "items": {
+                "menuItemName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Menu item name",
+                    "placeholder": "The name for a menu item"
+                  }
+                },
+                "menuItemDescription": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Menu item description",
+                    "placeholder": "A description for the menu item"
+                  }
+                },
+                "menuItemLink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Menu item link",
+                    "placeholder": "Choose a document to link to",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "menu",
+            "items": [
+              {
+                "menuItemName": "unleash impactful mindshare",
+                "menuItemDescription": "incubate open-source technologies",
+                "menuItemLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "menuItemName": "benchmark mission-critical paradigms",
+                "menuItemDescription": "brand scalable synergies",
+                "menuItemLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "menuItemName": "enhance impactful experiences",
+                "menuItemDescription": "visualize world-class web services",
+                "menuItemLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "menuItemName": "streamline back-end action-items",
+                "menuItemDescription": "evolve dynamic web services",
+                "menuItemLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              }
+            ],
+            "primary": {
+              "menuName": "Our products"
+            }
+          },
+          "withHighlight": {
+            "variation": "withHighlight",
+            "name": "With highlight",
+            "slice_type": "menu",
+            "items": [
+              {
+                "menuItemName": "disintermediate 24/365 eyeballs",
+                "menuItemDescription": "innovate proactive metrics",
+                "menuItemLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "menuItemName": "seize frictionless initiatives",
+                "menuItemDescription": "aggregate B2B niches",
+                "menuItemLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "menuItemName": "optimize web-enabled platforms",
+                "menuItemDescription": "repurpose rich e-commerce",
+                "menuItemLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              }
+            ],
+            "primary": {
+              "menuName": "Our products",
+              "highlightName": "leverage user-centric channels",
+              "highlightDescription": "incubate e-business supply-chains",
+              "highlightLink": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Menu/default/preview.png",
+            "width": 800,
+            "height": 36
+          },
+          "withHighlight": {
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Menu/withHighlight/preview.png",
+            "width": 800,
+            "height": 36
+          }
+        }
+      },
+      "paragraph": {
+        "library": "slices",
+        "id": "paragraph",
+        "name": "Paragraph",
+        "description": "Paragraph",
+        "model": {
+          "id": "paragraph",
+          "type": "SharedSlice",
+          "name": "Paragraph",
+          "description": "Paragraph",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Paragraph",
+              "primary": {
+                "paragraph": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Paragraph",
+                    "placeholder": "Enter a paragraph",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em,hyperlink,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "paragraph",
+            "items": [],
+            "primary": {
+              "paragraph": [
+                {
+                  "type": "paragraph",
+                  "text": "Est ex esse qui magna aute in ad sunt consequat cupidatat duis duis.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "title": {
+        "library": "slices",
+        "id": "title",
+        "name": "Title",
+        "description": "Title",
+        "model": {
+          "id": "title",
+          "type": "SharedSlice",
+          "name": "Title",
+          "description": "Title",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Title",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Enter a title",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2,heading3"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "title",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Leverage enterprise solutions",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/smebberson/Developer/next-tailwind-fontawesome-prismic/.slicemachine/assets/slices/Title/default/preview.png",
+            "width": 800,
+            "height": 32
+          }
+        }
+      }
+    }
+  }
+}
