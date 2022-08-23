@@ -1,15 +1,40 @@
 {
-  "id": "c38353ad-1fe1-4647-95f3-3eb7c1736683",
-  "uid": "labore-eveniet-totam",
+  "id": "mock-doc-id",
+  "url": null,
   "type": "article",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
   "data": {
     "subtitle": "Page subtitle",
     "heading": "Page heading",
+    "slices": [],
     "title": "Page title",
     "description": "Document description",
     "navigation": {
-      "link_type": "Web",
-      "url": "https://slicemachine.dev"
+      "id": "mock_document_id",
+      "link_type": "Document",
+      "type": "navigation",
+      "tags": [],
+      "lang": "en-us",
+      "slug": null,
+      "first_publication_date": "1970-01-01T00:00:01+0000",
+      "last_publication_date": "1970-01-01T01:00:00+0000"
+    },
+    "footer": {
+      "id": "mock_document_id",
+      "link_type": "Document",
+      "type": "footer",
+      "tags": [],
+      "lang": "en-us",
+      "slug": null,
+      "first_publication_date": "1970-01-01T00:00:01+0000",
+      "last_publication_date": "1970-01-01T01:00:00+0000"
     }
   }
 }

@@ -39,7 +39,8 @@
       "heading": {
         "content": "Page heading"
       }
-    }
+    },
+    "footer": {}
   },
   "slices": {
     "NavigationMenu": {
@@ -99,6 +100,11 @@
             }
           }
         }
+      }
+    },
+    "FooterButton": {
+      "default": {
+        "primary": {}
       }
     }
   }

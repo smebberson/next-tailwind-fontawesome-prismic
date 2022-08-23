@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import { SliceZone } from '@prismicio/react';
 
-import Navigation from '../../components/navigation';
 import { components } from '../../slices';
 import { createClient } from '../../prismicio';
-import { navigation } from '../../lib/graph-query';
+import { footer, navigation } from '../../lib/graph-query';
+import Footer from '../../components/footer';
+import Navigation from '../../components/navigation';
 
 const Article = ({ page }) => (
     <div>
@@ -33,6 +34,7 @@ const Article = ({ page }) => (
                 <SliceZone slices={page.data.slices} components={components} />
             </div>
         </div>
+        {page.data?.footer?.data && <Footer data={page.data.footer.data} />}
     </div>
 );
 
@@ -40,6 +42,7 @@ const graphQuery = `
 {
     article {
         ...articleFields
+        ${footer}
         ${navigation}
     }
 }`;

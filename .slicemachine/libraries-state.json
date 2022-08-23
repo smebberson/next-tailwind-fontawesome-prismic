@@ -1,6 +1,66 @@
 {
   "slices": {
     "components": {
+      "footer_button": {
+        "library": "slices",
+        "id": "footer_button",
+        "name": "FooterButton",
+        "description": "FooterButton",
+        "model": {
+          "id": "footer_button",
+          "type": "SharedSlice",
+          "name": "FooterButton",
+          "description": "FooterButton",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FooterButton",
+              "primary": {
+                "name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Name",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [{}],
+            "primary": {
+              "name": "carried",
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
+            },
+            "slice_type": "footer_button"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
       "navigation_button": {
         "library": "slices",
         "id": "navigation_button",

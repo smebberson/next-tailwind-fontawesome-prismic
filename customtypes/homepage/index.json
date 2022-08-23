@@ -80,6 +80,13 @@
           "select": "document",
           "customtypes": ["navigation"]
         }
+      },
+      "footer": {
+        "type": "Link",
+        "config": {
+          "label": "Footer",
+          "select": "document"
+        }
       }
     }
   }

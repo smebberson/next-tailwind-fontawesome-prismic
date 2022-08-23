@@ -1,0 +1,15 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [{}],
+    "primary": {
+      "name": "carried",
+      "link": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      }
+    },
+    "slice_type": "footer_button"
+  }
+]
