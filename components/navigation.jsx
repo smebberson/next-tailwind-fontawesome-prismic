@@ -73,7 +73,7 @@ const Navigation = ({ data }) => {
                     <Disclosure.Panel className="sm:hidden">
                         <div className="px-2 pt-2 pb-3 space-y-1">
                             {data.slices.map((item, itemIdx) => {
-                                if (item.slice_type === 'menu') {
+                                if (item.slice_type === 'navigation_menu') {
                                     return (
                                         <div key={itemIdx}>
                                             <div className="text-emerald-100 px-3 py-2 rounded-md text-sm font-medium">
