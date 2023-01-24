@@ -21,7 +21,7 @@
     "@prismicio/slice-simulator-react": "0.2.2",
     "@tailwindcss/typography": "0.5.4",
     "autoprefixer": "10.4.7",
-    "next": "12.2.3",
+    "next": "13.1.5",
     "next-slicezone": "0.2.6",
     "postcss": "8.4.14",
     "prismic-cli": "4.2.3",
